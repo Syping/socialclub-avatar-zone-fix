@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Social Club Avatar Zone Fix
-// @version      0.1
+// @version      0.1.1
 // @encoding     utf-8
 // @description  Fixes Social Club Avatar Zone by modifying the necessary CSS.
 // @author       You
@@ -23,6 +23,6 @@ function addGlobalStyle(css) {
 
 (function() {
     'use strict';
-    addGlobalStyle("#avatarSelect img[data-type='gen8selfie'] { max-width: none !important; width: 204.6875% !important; margin-top: -14.0625% !important; margin-left: -30.7083% !important; }");
+    addGlobalStyle("#avatarSelect img[data-type='gen8selfie'] { max-width: none !important; width: 204.6875% !important; margin-top: -14.0625% !important; margin-left: -31.15% !important; }");
     addGlobalStyle("#selectedAvatar .confirmImage.custom.gen8selfie img { width: 261px !important; margin-top: -18px !important; margin-left: -39px !important; }");
 })();
