@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Social Club Avatar Zone Fix
-// @version      0.1.1
+// @version      0.1.2
 // @encoding     utf-8
 // @description  Fixes Social Club Avatar Zone by modifying the necessary CSS.
-// @author       You
+// @author       Syping
 // @match        *://socialclub.rockstargames.com/*
 // @match        *://*.socialclub.rockstargames.com/*
 // @downloadURL  https://github.com/Syping/socialclub-avatar-zone-fix/raw/master/socialclub-avatar-zone-fix.user.js
@@ -24,5 +24,5 @@ function addGlobalStyle(css) {
 (function() {
     'use strict';
     addGlobalStyle("#avatarSelect img[data-type='gen8selfie'] { max-width: none !important; width: 204.6875% !important; margin-top: -14.0625% !important; margin-left: -31.15% !important; }");
-    addGlobalStyle("#selectedAvatar .confirmImage.custom.gen8selfie img { width: 261px !important; margin-top: -18px !important; margin-left: -39px !important; }");
+    addGlobalStyle("#selectedAvatar .confirmImage.custom.gen8selfie img { width: 261px !important; margin-top: -18px !important; margin-left: -39.42px !important; }");
 })();
