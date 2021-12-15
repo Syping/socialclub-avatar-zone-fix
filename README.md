@@ -1,7 +1,7 @@
-#### socialclub-avatar-zone-fix
+### socialclub-avatar-zone-fix
 
-##### Before
+#### Before
 ![Before](unfixed.png)
 
-##### After
+#### After
 ![After](fixed.png)
